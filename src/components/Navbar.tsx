@@ -23,7 +23,7 @@ const Navbar = () => {
         </Link>
       </div>
       {/* CENTER */}
-      <div className="hidden md:flex w-[50%]">
+      <div className="hidden md:flex w-[50%] justify-between items-center">
         {/* LINKS */}
         <div className="flex gap-6 text-gray-600">
           <Link href={""} className="flex gap-2">
@@ -38,6 +38,14 @@ const Navbar = () => {
             <Image src="/story.svg" alt="home-icon" width={20} height={20} />
             <span>Stories</span>
           </Link>
+        </div>
+        <div className="hidden xl:flex bg-slate-100 items-center rounded-xl p-2">
+          <input
+            type="text"
+            className="bg-transparent outline-none"
+            placeholder="search..."
+          />
+          <Image src="/search.svg" alt="search-icon" width={20} height={20} />
         </div>
       </div>
       {/* RIGHT */}
