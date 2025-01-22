@@ -11,7 +11,7 @@ const Stories = () => {
             alt={""}
             width={80}
             height={80}
-            className="rounded-full ring-blue-400"
+            className="rounded-full ring-2 ring-pink-500 w-20 h-20"
           />
           <span className="font-medium">Ricky</span>
         </div>
