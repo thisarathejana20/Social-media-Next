@@ -31,7 +31,24 @@ const AddPost = () => {
           />
         </div>
         {/* POST OPTIONS */}
-        <div className=""></div>
+        <div className="flex items-center gap-4 mt-4 text-gray-400">
+          <div className="flex items-center gap-2 cursor-pointer">
+            <Image src="/addPhoto.svg" alt="camera" width={20} height={20} />
+            Photo
+          </div>
+          <div className="flex items-center gap-2 cursor-pointer">
+            <Image src="/addVideo.svg" alt="camera" width={20} height={20} />
+            Video
+          </div>
+          <div className="flex items-center gap-2 cursor-pointer">
+            <Image src="/addEvent.svg" alt="camera" width={20} height={20} />
+            Event
+          </div>
+          <div className="flex items-center gap-2 cursor-pointer">
+            <Image src="/addPoll.svg" alt="camera" width={20} height={20} />
+            Poll
+          </div>
+        </div>
       </div>
     </div>
   );
